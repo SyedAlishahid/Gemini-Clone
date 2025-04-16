@@ -10,7 +10,7 @@ const Sidebar = () => {
   const [visibility, setVisibility] = useState(false);
 
   return (
-    <div className={`h-screen transition-all duration-300 ${visibility ? 'w-20' : 'w-84'} flex flex-col p-6 bg-[#282a2c]`}>
+    <div className={`h-screen sticky top-0 left-0 transition-all duration-300 ${visibility ? 'w-20' : 'w-84'} flex flex-col p-6 bg-[#282a2c]`}>
       {/* Hamburger Icon */}
       <div className='mt-3 mb-10 flex justify-start text-lg cursor-pointer text-white items-center w-full'>
         <MenuIcon
