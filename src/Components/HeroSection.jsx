@@ -13,7 +13,7 @@ const HeroSection = () => {
   const [conversation, setConversation] = useState([]); // Store both queries and responses
 
   console.log(inpVal)
-  const API_KEY = "AIzaSyBW5CX8rJpgKl09QhpVatp2QkxxSXoRLYs";
+  const API_KEY = "USE-OWN";
   const URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
   async function fetchGeminiData(prompt) {
